@@ -1,0 +1,15 @@
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.deps.json
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.pdb
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.csproj.CopyComplete
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\refint\ShopManagement.Application.Contract.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ShopManagement.Application.Contract.pdb
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagement.Application.Contract\obj\Debug\net5.0\ref\ShopManagement.Application.Contract.dll

@@ -1,0 +1,15 @@
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.deps.json
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.runtimeconfig.json
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.runtimeconfig.dev.json
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.pdb
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.csproj.AssemblyReference.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.AssemblyInfoInputs.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.AssemblyInfo.cs
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\refint\ShopManagementM.Infrastructure.EFCore.dll
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.pdb
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagementM.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\Sediqe-Mirzaie\source\repos\LampShade\ShopManagementM.Infrastructure.EFCore\obj\Debug\net5.0\ref\ShopManagementM.Infrastructure.EFCore.dll
