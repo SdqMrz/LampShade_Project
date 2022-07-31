@@ -25,7 +25,7 @@ namespace ServiceHost
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("LampShadeDb");
-            ShopManagementBootstraper.Configure(services, connectionString);
+            ShopManagementBootstrapper.Configure(services, connectionString);
 
             services.AddRazorPages();
         }

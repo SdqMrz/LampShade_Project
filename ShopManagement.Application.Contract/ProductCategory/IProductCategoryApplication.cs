@@ -13,6 +13,7 @@ namespace ShopManagement.Application.Contract.ProductCategory
         OperationResult Edit(EditProductCategory command);
         EditProductCategory GetByDetails(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
+        List<ProductCategoryViewModel> GetProductCategories();
     }
 
 
