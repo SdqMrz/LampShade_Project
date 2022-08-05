@@ -50,3 +50,5 @@ C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.dll
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.pdb

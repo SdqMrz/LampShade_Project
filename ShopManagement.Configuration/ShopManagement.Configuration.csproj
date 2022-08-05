@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_LampShadeQuery\01_LampShadeQuery.csproj" />
     <ProjectReference Include="..\ShopManagement.Application.Contract\ShopManagement.Application.Contract.csproj" />
     <ProjectReference Include="..\ShopManagement.Application\ShopManagement.Application.csproj" />
     <ProjectReference Include="..\ShopManagementM.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />

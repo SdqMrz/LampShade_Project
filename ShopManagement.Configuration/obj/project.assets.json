@@ -1523,6 +1523,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "01_LampShadeQuery/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_FrameWork": "1.0.0",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/01_LampShadeQuery.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_LampShadeQuery.dll": {}
+        }
+      },
       "0_FrameWork/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5818,6 +5832,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "01_LampShadeQuery/1.0.0": {
+      "type": "project",
+      "path": "../01_LampShadeQuery/01_LampShadeQuery.csproj",
+      "msbuildProject": "../01_LampShadeQuery/01_LampShadeQuery.csproj"
+    },
     "0_FrameWork/1.0.0": {
       "type": "project",
       "path": "../0_FrameWork/0_FrameWork.csproj",
@@ -5846,6 +5865,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "01_LampShadeQuery >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
@@ -5882,6 +5902,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Lenovo\\Desktop\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj"
+            },
             "C:\\Users\\Lenovo\\Desktop\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
               "projectPath": "C:\\Users\\Lenovo\\Desktop\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"
             },
@@ -5933,20 +5956,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

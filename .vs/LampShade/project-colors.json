@@ -40,7 +40,12 @@
       "ProjectGuid": "717c87cf-5d81-4e68-ab43-fb2dda34dfb9",
       "DisplayName": "ShopManagement.Domain",
       "ColorIndex": 6
+    },
+    "8788186e-63ff-4e4e-9480-1cd24711c61c": {
+      "ProjectGuid": "8788186e-63ff-4e4e-9480-1cd24711c61c",
+      "DisplayName": "01_LampShadeQuery",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }

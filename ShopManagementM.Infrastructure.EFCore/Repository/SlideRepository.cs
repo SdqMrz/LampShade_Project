@@ -20,7 +20,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         
         public EditSlide GetDetails(long id)
         {
-           return _context.Slides.Select(x => new EditSlide
+           return _context.Slides.Where(x => x.Id == id).Select(x => new EditSlide
            {
            Id = id, 
            Picture = x.Picture,
@@ -29,7 +29,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
            Heading = x.Heading,
            Title = x.Title,
            BtnText = x.BtnText,
-           Text = x.Text,
+           Link=x.Link,
+           Text = x.Text
            }).FirstOrDefault();
         }
 
