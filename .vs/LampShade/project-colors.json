@@ -45,7 +45,52 @@
       "ProjectGuid": "8788186e-63ff-4e4e-9480-1cd24711c61c",
       "DisplayName": "01_LampShadeQuery",
       "ColorIndex": 7
+    },
+    "bcc59003-1fb6-46b1-85d1-55dc34c6858d": {
+      "ProjectGuid": "bcc59003-1fb6-46b1-85d1-55dc34c6858d",
+      "DisplayName": "DiscountManagement.Domain",
+      "ColorIndex": 8
+    },
+    "579f8cf2-92d0-4020-be8f-4f10f4d2dab1": {
+      "ProjectGuid": "579f8cf2-92d0-4020-be8f-4f10f4d2dab1",
+      "DisplayName": "DiscountManagement.Application.Contract",
+      "ColorIndex": 9
+    },
+    "0c10eec7-7077-4094-8adc-a5fcda3afcc4": {
+      "ProjectGuid": "0c10eec7-7077-4094-8adc-a5fcda3afcc4",
+      "DisplayName": "CustomerDiscount.Application",
+      "ColorIndex": 10
+    },
+    "6386b241-16f5-428e-9f54-5b21aca72a6b": {
+      "ProjectGuid": "6386b241-16f5-428e-9f54-5b21aca72a6b",
+      "DisplayName": "DiscountManagement.Infrastructure.EFCore",
+      "ColorIndex": 11
+    },
+    "d5992a1f-6ee1-4049-8513-fa70d53e5c03": {
+      "ProjectGuid": "d5992a1f-6ee1-4049-8513-fa70d53e5c03",
+      "DisplayName": "DiscountManagement.Domain",
+      "ColorIndex": 12
+    },
+    "b2b4818a-caf4-429c-a609-91efbfd5c2ab": {
+      "ProjectGuid": "b2b4818a-caf4-429c-a609-91efbfd5c2ab",
+      "DisplayName": "DiscountManagement.Application.Contract",
+      "ColorIndex": 13
+    },
+    "8646dfea-772f-465c-baec-d6009a245b25": {
+      "ProjectGuid": "8646dfea-772f-465c-baec-d6009a245b25",
+      "DisplayName": "DiscountManagement.Application",
+      "ColorIndex": 14
+    },
+    "0ec95db3-6e37-4d15-b73d-73e784884fac": {
+      "ProjectGuid": "0ec95db3-6e37-4d15-b73d-73e784884fac",
+      "DisplayName": "DiscountManagement.Infrastructure",
+      "ColorIndex": 15
+    },
+    "221b6dd6-a0cb-4dc9-9d3b-4d7dfc5a1be5": {
+      "ProjectGuid": "221b6dd6-a0cb-4dc9-9d3b-4d7dfc5a1be5",
+      "DisplayName": "DiscountManagement.Infrastructure.EFCore",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 1
 }

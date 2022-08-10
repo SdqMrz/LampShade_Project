@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.deps.json
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.dll
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.pdb
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb

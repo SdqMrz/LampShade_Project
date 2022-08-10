@@ -30,11 +30,13 @@ C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.pdb
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\0_FrameWork.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
@@ -50,5 +52,3 @@ C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.dll
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.pdb

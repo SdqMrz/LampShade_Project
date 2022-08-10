@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_FrameWork.Application;
 using _0_FrameWork.Infrastructure;
 using ShopManagement.Application.Contract.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -39,7 +40,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Name = x.Name,
                 Picture = x.Picture,
-                CreationDate = x.CreationDate.ToString()
+                CreationDate = x.CreationDate.ToFarsi()
 
             });
 
