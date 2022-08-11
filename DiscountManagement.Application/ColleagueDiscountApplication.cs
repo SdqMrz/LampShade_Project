@@ -79,7 +79,7 @@ namespace DiscountManagement.Application
 
         public List<ColleagueDiscountViewModel> Search(ColleagueDiscountSearchModel searchModel)
         {
-            throw new NotImplementedException();
+            return _colleagueDiscountRepository.Search(searchModel);
         }
     }
 }

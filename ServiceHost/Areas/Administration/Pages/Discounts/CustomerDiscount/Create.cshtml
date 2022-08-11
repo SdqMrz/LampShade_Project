@@ -20,7 +20,7 @@
 
                     <label asp-for="ProductId" class="control-label"> محصول</label>
                     <select type="text" class="form-control" asp-for="ProductId" asp-items='new SelectList(Model.Products,"Id","Name")'>
-                        <option value="0">گروه محصول</option>
+                        <option value="0">محصول</option>
                     </select>
                     <span asp-validation-for="ProductId" class="error"></span>
                 </div>

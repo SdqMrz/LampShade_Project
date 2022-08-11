@@ -13,9 +13,10 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
     {
         private readonly DiscountContext _context;
         private readonly ShopContext _shopContext;
-        public ColleagueDiscountRepository(DiscountContext context) : base(context)
+        public ColleagueDiscountRepository(DiscountContext context,ShopContext shopContext) : base(context)
         {
             _context = context;
+            _shopContext= shopContext;
         }
 
         public EditColleagueDiscount GetDetails(long id)
@@ -37,6 +38,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 Id=x.Id,
                 ProductId = x.ProductId,
                 DiscountRate=x.DiscountRate,
+                IsRemoved=x.IsRemoved,
                 CreationDate=x.CreationDate.ToFarsi()
             });
 
