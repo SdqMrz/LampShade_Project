@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\bin\Debug\net5.0\InventoryManagement.Application.Contract.deps.json
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\bin\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.pdb
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb

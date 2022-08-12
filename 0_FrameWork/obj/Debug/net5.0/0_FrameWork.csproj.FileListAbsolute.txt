@@ -14,7 +14,6 @@ C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.deps.
 C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.dll
 C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\bin\Debug\net5.0\ref\0_FrameWork.dll
 C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\bin\Debug\net5.0\0_FrameWork.pdb
-C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csproj.AssemblyReference.cache
 C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.AssemblyInfoInputs.cache
 C:\Users\Lenovo\Desktop\LampShade\0_FrameWork\obj\Debug\net5.0\0_FrameWork.AssemblyInfo.cs

@@ -141,12 +141,17 @@ C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagemen
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.pdb
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\01_LampShadeQuery.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\0_FrameWork.pdb
@@ -154,6 +159,9 @@ C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagemen
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\ShopManagement.Domain.pdb
@@ -171,6 +179,9 @@ C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\staticwebassets\S
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.TagHelpers.input.cache
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.TagHelpers.output.cache
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.RazorCoreGenerate.cache
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Create.cshtml.g.cs
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Edit.cshtml.g.cs
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Index.cshtml.g.cs
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Create.cshtml.g.cs
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Edit.cshtml.g.cs
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscount\Index.cshtml.g.cs
@@ -209,6 +220,5 @@ C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
-C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Create.cshtml.g.cs
-C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Edit.cshtml.g.cs
-C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscount\Index.cshtml.g.cs
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb

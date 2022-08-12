@@ -8,9 +8,7 @@ namespace InventoryManagement.Domain.InventoryAgg
     public interface IInventoryRepository : IRepository<long, Inventory>
     {
         Inventory GetBy(long productId);
-        //OperationResult Increase(IncreaseInventory command);
-        //OperationResult Decrease(List<DecreaseInventory> command);
         EditInventory GetDetails(long id);
-        List<InventorySearchModel> Search(InventorySearchModel searchModel);
+        List<InventoryViewModel> Search(InventorySearchModel searchModel);
     }
 }
