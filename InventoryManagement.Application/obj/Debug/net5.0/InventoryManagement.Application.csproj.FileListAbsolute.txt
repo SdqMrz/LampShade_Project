@@ -5,9 +5,11 @@ C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\0_FrameWork.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\0_FrameWork.pdb
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.AssemblyReference.cache
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache

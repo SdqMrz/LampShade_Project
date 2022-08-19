@@ -11,8 +11,6 @@ namespace ShopManagement.Application.Contract.Product
     {
         OperationResult Create(CreateProduct command);
         OperationResult Edit(EditProduct command);
-        OperationResult ExistInStock(long id);
-        OperationResult NotExistInStock(long id);
         EditProduct GetByDetails(long id);
         List<ProductViewModel> Search(ProductSearchModel searchModel);
         List<ProductViewModel> GetProducts();

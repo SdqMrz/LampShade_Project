@@ -11,8 +11,6 @@ namespace ShopManagement.Domain.ProductAgg
         public string Code { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
-        public bool IsInStock { get; private set; }
-        public double UnitPrice { get; private set; }
         public string Picture { get; private set; }
         public string PictureTitle { get; set; }
         public string PictureAlt { get; private set; }
@@ -24,7 +22,7 @@ namespace ShopManagement.Domain.ProductAgg
         public List<ProductPicture> ProductPictures { get; private set; }
         public ProductCategory Category { get; private set; }
 
-        public Product(string name, string code, string shortDescription, string description, double unitPrice,
+        public Product(string name, string code, string shortDescription, string description,
             string picture, string pictureTitle, string pictureAlt, string keyWords, string metaDescription,
             string slug, long categoryId)
         {
@@ -32,25 +30,6 @@ namespace ShopManagement.Domain.ProductAgg
             Code = code;
             ShortDescription = shortDescription;
             Description = description;
-            UnitPrice = unitPrice;
-            Picture = picture;
-            PictureTitle = pictureTitle;
-            PictureAlt = pictureAlt;
-            this.keyWords = keyWords;
-            MetaDescription = metaDescription;
-            Slug = slug;
-            CategoryId = categoryId;
-            IsInStock = true;
-        }
-        public void Edit(string name, string code, string shortDescription, string description, double unitPrice,
-            string picture, string pictureTitle, string pictureAlt, string keyWords, string metaDescription,
-            string slug, long categoryId)
-        {
-            Name = name;
-            Code = code;
-            ShortDescription = shortDescription;
-            Description = description;
-            UnitPrice = unitPrice;
             Picture = picture;
             PictureTitle = pictureTitle;
             PictureAlt = pictureAlt;
@@ -59,14 +38,21 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             CategoryId = categoryId;
         }
-
-        public void ExistInStock()
+        public void Edit(string name, string code, string shortDescription, string description,
+            string picture, string pictureTitle, string pictureAlt, string keyWords, string metaDescription,
+            string slug, long categoryId)
         {
-            this.IsInStock = true;
-        }
-        public void NotExistInStock()
-        {
-            this.IsInStock = false;
+            Name = name;
+            Code = code;
+            ShortDescription = shortDescription;
+            Description = description;
+            Picture = picture;
+            PictureTitle = pictureTitle;
+            PictureAlt = pictureAlt;
+            this.keyWords = keyWords;
+            MetaDescription = metaDescription;
+            Slug = slug;
+            CategoryId = categoryId;
         }
     }
 }

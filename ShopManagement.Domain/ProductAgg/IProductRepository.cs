@@ -11,6 +11,7 @@ namespace ShopManagement.Domain.ProductAgg
     public interface IProductRepository:IRepository<long,Product>
     {
         EditProduct GetByDetails(long id);
+        Product GetWithCategory(long id);
         List<ProductViewModel> Search(ProductSearchModel searchModel);
         List<ProductViewModel> GetProducts();
 

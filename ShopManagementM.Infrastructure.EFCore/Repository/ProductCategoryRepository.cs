@@ -3,6 +3,7 @@ using System.Linq;
 using _0_FrameWork.Application;
 using _0_FrameWork.Infrastructure;
 using ShopManagement.Application.Contract.ProductCategory;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
@@ -23,7 +24,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Name = x.Name,
                 Description = x.Description,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 KeyWords = x.KeyWords,
@@ -57,6 +58,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 Id = x.Id
             }).ToList();
+        }
+
+        public string GetSlugBy(long id)
+        {
+         return _context.ProductCategories.Select(x=> new {x.Id, x.Slug}).FirstOrDefault(x => x.Id == id).Slug;   
         }
     }
 }

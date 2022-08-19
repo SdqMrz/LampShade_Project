@@ -19,8 +19,8 @@ namespace _01_LampShadeQuery.Query
 
             return _shopContext.Slides.Where(x=>x.IsRemoved==false).Select(x=> new SlideQueryModel
             {
-                Picture=x.Picture,
-                PictureAlt=x.PictureAlt,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
                 PictureTitle=x.PictureTitle,
                 Heading=x.Heading,
                 Text=x.Text,

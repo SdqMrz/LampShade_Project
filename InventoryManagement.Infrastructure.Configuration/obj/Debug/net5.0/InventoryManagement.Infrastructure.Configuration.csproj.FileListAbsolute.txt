@@ -4,12 +4,14 @@ C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configurati
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\0_FrameWork.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\0_FrameWork.pdb
@@ -25,5 +27,3 @@ C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configurati
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
-C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
-C:\Users\Lenovo\Desktop\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb

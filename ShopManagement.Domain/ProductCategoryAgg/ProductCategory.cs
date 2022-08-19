@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using _0_FrameWork.Domain;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
@@ -39,6 +40,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         {
             Name = name;
             Description = description;
+            if(!string.IsNullOrWhiteSpace(picture))
             Picture = picture;
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;

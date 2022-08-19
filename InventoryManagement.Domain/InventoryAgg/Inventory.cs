@@ -38,7 +38,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         public void Reduce(long count, long operatorId, string description, long orderId)
         {
             var currentCount = CalculateCurrentCount() - count;
-            var operation = new InventoryOperation(true, count, operatorId, currentCount, description, orderId, Id);
+            var operation = new InventoryOperation(false, count, operatorId, currentCount, description, orderId, Id);
             Operations.Add(operation);
             IsInStock = currentCount > 0;
         }
