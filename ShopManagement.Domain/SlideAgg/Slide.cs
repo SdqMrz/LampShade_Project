@@ -15,20 +15,6 @@ namespace ShopManagement.Domain.SlideAgg
         public bool IsRemoved { get; private set; }
 
         public Slide(string picture, string pictureAlt, string pictureTitle, string heading,
-            string title, string text,string link, string btnText)
-        {
-            Picture = picture;
-            PictureAlt = pictureAlt;
-            PictureTitle = pictureTitle;
-            Heading = heading;
-            Title = title;
-            Text = text;
-            Link=link;
-            BtnText = btnText;
-            IsRemoved = false;
-        }
-
-        public void Edit(string picture, string pictureAlt, string pictureTitle, string heading,
             string title, string text, string link, string btnText)
         {
             Picture = picture;
@@ -37,7 +23,22 @@ namespace ShopManagement.Domain.SlideAgg
             Heading = heading;
             Title = title;
             Text = text;
-            Link=link;
+            Link = link;
+            BtnText = btnText;
+            IsRemoved = false;
+        }
+
+        public void Edit(string picture, string pictureAlt, string pictureTitle, string heading,
+            string title, string text, string link, string btnText)
+        {
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+            PictureAlt = pictureAlt;
+            PictureTitle = pictureTitle;
+            Heading = heading;
+            Title = title;
+            Text = text;
+            Link = link;
             BtnText = btnText;
         }
 

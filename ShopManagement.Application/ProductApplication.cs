@@ -30,8 +30,15 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.Slugify();
             var categorySlug = _productCategoryRepository.GetSlugBy(command.CategoryId);
-            var filePath = $"{categorySlug}/{slug}";
-            var fileName = _fileUploader.Upload(command.Picture, filePath);
+
+            var filePath = new StringBuilder();
+            filePath.Append(categorySlug);
+            filePath.Append('\x200E');
+            filePath.Append('/');
+            filePath.Append(slug);
+            filePath.Append('\x200E');
+            filePath.Append('/');
+            var fileName = _fileUploader.Upload(command.Picture, filePath.ToString());
 
             var product = new Product(command.Name, command.Code, command.ShortDescription, command.Description,
                                       fileName, command.PictureTitle, command.PictureAlt,
@@ -54,9 +61,9 @@ namespace ShopManagement.Application
                 return opertion.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            var categorySlug = product.Category.Slug;
+
             var filePath =new StringBuilder();
-             filePath.Append(categorySlug);
+             filePath.Append(product.Category.Slug);
             filePath.Append('\x200E');
             filePath.Append('/');
             filePath.Append(slug);

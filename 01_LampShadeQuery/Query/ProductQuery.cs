@@ -3,6 +3,7 @@ using _01_LampShadeQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
@@ -29,16 +30,19 @@ namespace _01_LampShadeQuery.Query
             var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
             var discounts = _discountContext.CustomerDiscounts.Select(x => new { x.ProductId, x.DiscountRate }).ToList();
 
-            var products = _context.Products.Include(x => x.Category).Select(product => new ProductQueryModel
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Category = product.Category.Name,
-                Picture = product.Picture,
-                PictureAlt = product.PictureAlt,
-                PictureTitle = product.PictureTitle,
-                Slug = product.Slug
-            }).OrderByDescending(x => x.Id).Take(6).ToList();
+            var products = _context.Products
+                .Include(x => x.Category)
+                .Include(x => x.ProductPictures).Select(product => new ProductQueryModel
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Category = product.Category.Name,
+                    CategorySlug = product.Category.Slug,
+                    Picture = product.Picture,
+                    PictureAlt = product.PictureAlt,
+                    PictureTitle = product.PictureTitle,
+                    Slug = product.Slug
+                }).OrderByDescending(x => x.Id).Take(6).ToList();
 
             foreach (var product in products)
             {
@@ -83,6 +87,7 @@ namespace _01_LampShadeQuery.Query
                     Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
+                    Pictures = MapProductPictures(x.ProductPictures),
                     Slug = x.Slug,
                     CategorySlug = x.Category.Slug,
                     Code = x.Code,
@@ -113,7 +118,6 @@ namespace _01_LampShadeQuery.Query
                     product.PriceWithDiscount = (price - discountAmount).ToMoney();
                 }
             }
-
             return product;
         }
 
@@ -124,18 +128,22 @@ namespace _01_LampShadeQuery.Query
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                 .Select(x => new { x.ProductId, x.DiscountRate }).ToList();
 
-            var query = _context.Products.Include(x => x.Category).Select(product => new ProductQueryModel
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Category = product.Category.Name,
-                CategorySlug = product.Category.Slug,
-                Picture = product.Picture,
-                PictureAlt = product.PictureAlt,
-                PictureTitle = product.PictureTitle,
-                Slug = product.Slug,
-                Description = product.Description
-            }).AsNoTracking();
+            var query = _context.Products
+                .Include(x => x.Category)
+                .Include(x => x.ProductPictures)
+                .Select(product => new ProductQueryModel
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Category = product.Category.Name,
+                    CategorySlug = product.Category.Slug,
+                    Picture = product.Picture,
+                    PictureAlt = product.PictureAlt,
+                    PictureTitle = product.PictureTitle,
+                    Pictures = MapProductPictures(product.ProductPictures),
+                    Slug = product.Slug,
+                    Description = product.Description
+                }).AsNoTracking();
 
             if (!string.IsNullOrWhiteSpace(value))
                 query = query.Where(x => x.Name.Contains(value) || x.Description.Contains(value)); ;
@@ -167,6 +175,18 @@ namespace _01_LampShadeQuery.Query
                 }
             }
             return products;
+        }
+
+        private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> productPictures)
+        {
+            return productPictures.Select(x => new ProductPictureQueryModel
+            {
+                IsRemoved = x.IsRemoved,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle,
+                ProductId = x.ProductId
+            }).Where(x => !x.IsRemoved).ToList();
         }
     }
 }

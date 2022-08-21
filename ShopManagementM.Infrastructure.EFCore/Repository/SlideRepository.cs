@@ -24,7 +24,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
            return _context.Slides.Where(x => x.Id == id).Select(x => new EditSlide
            {
            Id = id, 
-           Picture = x.Picture,
            PictureAlt = x.PictureAlt,
            PictureTitle = x.PictureTitle,
            Heading = x.Heading,

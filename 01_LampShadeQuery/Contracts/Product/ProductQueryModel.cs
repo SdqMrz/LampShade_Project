@@ -28,5 +28,14 @@ namespace _01_LampShadeQuery.Contracts.Product
         public string Keywords { get; set; }
         public string MetaDescription { get; set; }
         public bool IsInStock { get; set; }
+        public List<ProductPictureQueryModel> Pictures { get; set; }
+    }
+    public class ProductPictureQueryModel
+    {
+        public long ProductId { get; set; }
+        public string Picture { get; set; }
+        public string PictureAlt { get; set; }
+        public string PictureTitle { get; set; }
+        public bool IsRemoved { get; set; }
     }
 }
