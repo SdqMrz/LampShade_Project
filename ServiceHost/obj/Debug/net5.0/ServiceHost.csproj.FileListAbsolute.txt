@@ -239,3 +239,4 @@ C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetC
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Comment\Index.cshtml.g.cs

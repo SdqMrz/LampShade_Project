@@ -3,6 +3,7 @@ using _01_LampShadeQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
@@ -78,7 +79,9 @@ namespace _01_LampShadeQuery.Query
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                 .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
 
-            var product = _context.Products.Include(x => x.Category)
+            var product = _context.Products
+                .Include(x => x.Category)
+                .Include(x=>x.Comments)
                 .Select(x => new ProductQueryModel
                 {
                     Id = x.Id,
@@ -88,6 +91,7 @@ namespace _01_LampShadeQuery.Query
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     Pictures = MapProductPictures(x.ProductPictures),
+                    Comments=MapProductComment(x.Comments),
                     Slug = x.Slug,
                     CategorySlug = x.Category.Slug,
                     Code = x.Code,
@@ -119,6 +123,21 @@ namespace _01_LampShadeQuery.Query
                 }
             }
             return product;
+        }
+
+        private static List<CommentQueryModel> MapProductComment(List<Comment> comments)
+        {
+            
+            return comments
+                .Where(x=> x.IsConfirmed )
+                .Where(x=> !x.IsCanceled)
+                .Select(x => new CommentQueryModel 
+                  {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Email = x.Email,
+                    Message = x.Message
+                   }).OrderByDescending(x=>x.Id).ToList();
         }
 
         public List<ProductQueryModel> Search(string value)
