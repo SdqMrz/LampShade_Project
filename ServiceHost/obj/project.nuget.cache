@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kqgUjeLCK2/aUc5dac9VSJmDzK3vcA6nNLR/ROz3Z6s30G5EQVQvDImgjmFs4N0H2hB7WcRIM7NHE4deRjTIqQ==",
+  "dgSpecHash": "nv7lMvj2Syp/7Phef7LehpYsoZo+VoRYP4yqclDGI6db7rqFiI1xurIzVMG3czcCaN1w5AUrbUlTp1o6gu1RGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\LampShade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -110,6 +110,16 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BlogManagement.Infrastructure.Configuration depends on Microsoft.Extensions.DependencyInjection.Abstractions (>= 5.0.5) but Microsoft.Extensions.DependencyInjection.Abstractions 5.0.5 was not found. An approximate best match of Microsoft.Extensions.DependencyInjection.Abstractions 6.0.0 was resolved.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
     {
       "code": "NU1603",
       "level": "Warning",

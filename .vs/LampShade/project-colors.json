@@ -120,7 +120,12 @@
       "ProjectGuid": "3989dfa6-2d75-4135-a68f-bcd12b99bbdf",
       "DisplayName": "InventoryManagement.Application",
       "ColorIndex": 6
+    },
+    "a3516741-670c-49db-a1cc-95719cef9ab4": {
+      "ProjectGuid": "a3516741-670c-49db-a1cc-95719cef9ab4",
+      "DisplayName": "BlogManagement.Domain",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
