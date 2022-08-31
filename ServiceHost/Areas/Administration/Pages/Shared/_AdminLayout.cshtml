@@ -31,7 +31,7 @@
     <!-- Custom Files -->
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
-     <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet" />
+    <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -251,7 +251,7 @@
 
 
             <script src="~/AdminTheme/assets/js/site.js"></script>
-            
+
             <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
             <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
 
@@ -266,6 +266,16 @@
 
                 });
             </script>
-
+            <script src="https://cdn.tiny.cloud/1/l66ri912b892sia7qx7mpwdlilz9zuvt8ldgu6om6yro2nmp/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+            <script>
+                tinymce.init({
+                  selector: '#ContentBody',
+                  plugins: 'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker',
+                  toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents',
+                  toolbar_mode: 'floating',
+                  tinycomments_mode: 'embedded',
+                  tinycomments_author: 'Author name',
+                });
+            </script>
 </body>
 </html>

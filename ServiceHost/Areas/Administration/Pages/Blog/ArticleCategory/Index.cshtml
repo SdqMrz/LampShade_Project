@@ -5,14 +5,14 @@
 
 @{
     Layout = "Shared/_AdminLayout";
-    ViewData["title"] = "مدیریت گروه مقالات";
+    ViewData["title"] = "مدیریت مقالات";
 }
 
 <div class="row">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه مقاله جدید</a>
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد مقاله جدید</a>
         </p>
     </div>
 </div>
@@ -21,7 +21,7 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">جستجو در گروه مقالات</h3>
+                <h3 class="panel-title">جستجو در مقالات</h3>
             </div>
             <div class="panel-body">
                 <form class="form-inline" role="form" method="get">
