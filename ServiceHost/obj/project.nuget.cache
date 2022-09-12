@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nv7lMvj2Syp/7Phef7LehpYsoZo+VoRYP4yqclDGI6db7rqFiI1xurIzVMG3czcCaN1w5AUrbUlTp1o6gu1RGg==",
+  "dgSpecHash": "q49fF+CDo+EvWq8NEbiQOSmH6e+wRCGdebYHuuLrYvgcDGFkyYr9QOm7rcDFynJu45gpbZRVHIIP/EmRy7eAGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\LampShade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -115,6 +115,16 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "BlogManagement.Infrastructure.Configuration depends on Microsoft.Extensions.DependencyInjection.Abstractions (>= 5.0.5) but Microsoft.Extensions.DependencyInjection.Abstractions 5.0.5 was not found. An approximate best match of Microsoft.Extensions.DependencyInjection.Abstractions 6.0.0 was resolved.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CommentManagement.Infrastructure.Configuration depends on Microsoft.Extensions.DependencyInjection.Abstractions (>= 5.0.5) but Microsoft.Extensions.DependencyInjection.Abstractions 5.0.5 was not found. An approximate best match of Microsoft.Extensions.DependencyInjection.Abstractions 6.0.0 was resolved.",
       "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "targetGraphs": [
         "net5.0"

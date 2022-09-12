@@ -10,6 +10,7 @@ namespace ServiceHost.Pages
         private readonly IProductQuery _productQuery;
         public List<ProductQueryModel> Products;
         public string Value;
+
         public SearchModel(IProductQuery productQuery)
         {
             _productQuery = productQuery;

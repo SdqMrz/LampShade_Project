@@ -1,6 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductModel
 @{
+    ViewData["Title"] = Model.Product.Name;
+    ViewData["Keywords"] = Model.Product.Keywords;
+    ViewData["metaDescription"] = Model.Product.MetaDescription;
 }
 
 <div class="breadcrumb-area section-space--half">
@@ -111,7 +114,7 @@
                                         <p class="single-info">
                                             <a asp-page="/ProductCategory" asp-route-id="@Model.Product.CategorySlug">@Model.Product.Category</a>
                                         </p>
-                                        <h4 class="product-title">@Model.Product.Name</h4>
+                                        <h2 class="product-title">@Model.Product.Name</h2>
                                         <div class="product-rating">
                                             <span class="rating">
                                                 <i class="ion-android-star active"></i>
@@ -317,7 +320,7 @@
                                                                               placeholder="نظر خود را وارد کنید..."></textarea>
                                                                 </div>
                                                                 <input type="hidden" value="@Model.Product.Slug" name="ProductSlug">
-                                                                <input type="hidden" value="@Model.Product.Id" name="productId">
+                                                                <input type="hidden" value="@Model.Product.Id" name="ownerRecordId">
                                                                 <div class="col-12">
                                                                     <input value="ارسال" type="submit">
                                                                 </div>

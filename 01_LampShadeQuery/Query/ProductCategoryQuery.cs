@@ -104,8 +104,11 @@ namespace _01_LampShadeQuery.Query
 
         public ProductCategoryQueryModel GetCategoryWithProductsBy(string slug)
         {
-            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
-            var discounts = _discountContext.CustomerDiscounts.Select(x => new { x.ProductId, x.DiscountRate ,x.EndDate}).ToList();
+            var inventory = _inventoryContext.Inventory
+                .Select(x => new { x.ProductId, x.UnitPrice }).ToList();
+
+            var discounts = _discountContext.CustomerDiscounts
+                .Select(x => new { x.ProductId, x.DiscountRate ,x.EndDate}).ToList();
 
             var category = _context.ProductCategories
                 .Include(x => x.Products)

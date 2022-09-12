@@ -6,8 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BolgManagement.Infrastructure.EFCore.Repository
 {
@@ -23,8 +21,8 @@ namespace BolgManagement.Infrastructure.EFCore.Repository
         {
             return _context.ArticleCategories.Select(c => new ArticleCategoryViewModel
             {
-                Id=c.Id,
-                Name=c.Name
+                Id = c.Id,
+                Name = c.Name
             }).ToList();
         }
 
@@ -48,22 +46,25 @@ namespace BolgManagement.Infrastructure.EFCore.Repository
         public string GetSlugBy(long id)
         {
             return _context.ArticleCategories
-                .Select(x=> new {x.Id,x.Slug})
+                .Select(x => new { x.Id, x.Slug })
                 .FirstOrDefault(x => x.Id == id).Slug;
         }
 
         public List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel)
         {
-            var query = _context.ArticleCategories.Select(x => new ArticleCategoryViewModel
-            {
-                Id = x.Id,
-                Name = x.Name,
-                Description = x.Description,
-                OrderShow = x.OrderShow,
-                Picture = x.Picture,
-                CreationDate = x.CreationDate.ToFarsi(),
-                //ArticleCount=
-            });
+            var query = _context.ArticleCategories
+                .Include(x => x.Articles)
+                .Select(x => new ArticleCategoryViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Description = x.Description.Substring(0, Math.Min(x.Description.Length, 50)) + "...",
+                    OrderShow = x.OrderShow,
+                    Picture = x.Picture,
+                    CreationDate = x.CreationDate.ToFarsi(),
+                    ArticleCount = x.Articles.Count()
+                });
+
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
                 query = query.Where(x => x.Name.Contains(searchModel.Name));
 

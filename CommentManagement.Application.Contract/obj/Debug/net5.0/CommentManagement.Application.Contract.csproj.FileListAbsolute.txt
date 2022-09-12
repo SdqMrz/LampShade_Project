@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\bin\Debug\net5.0\CommentManagement.Application.Contract.deps.json
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\bin\Debug\net5.0\ref\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\bin\Debug\net5.0\0_FrameWork.pdb
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\ref\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contract.pdb

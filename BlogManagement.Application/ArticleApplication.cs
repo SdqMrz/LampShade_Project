@@ -52,7 +52,7 @@ namespace BlogManagement.Application
             if(article == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
 
-            if (_articleRepository.Exist(x => x.Title == command.Title && x.Id!=command.Id))
+            if (_articleRepository.Exist(x => x.Title == command.Title && x.Id != command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
 

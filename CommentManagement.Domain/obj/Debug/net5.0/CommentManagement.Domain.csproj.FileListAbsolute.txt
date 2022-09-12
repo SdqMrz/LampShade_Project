@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.deps.json
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\ref\CommentManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.pdb
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\0_FrameWork.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\0_FrameWork.pdb
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\ref\CommentManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.pdb

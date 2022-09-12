@@ -2679,13 +2679,14 @@ select {
 	position: absolute;
 	top: 20px;
 	right: 20px;
+	padding: 5px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
-	width: 62px;
-	height: 70px;
+	width: auto;
+	height: auto;
 	text-align: center;
 	background: #fff;
 	-webkit-box-orient: vertical;
