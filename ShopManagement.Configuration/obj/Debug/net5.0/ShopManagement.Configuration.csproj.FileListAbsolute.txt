@@ -35,6 +35,9 @@ C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BolgManagement.Infrastructure.EFCore.dll
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
@@ -53,6 +56,9 @@ C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BolgManagement.Infrastructure.EFCore.pdb
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
+C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
@@ -70,9 +76,3 @@ C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.dll
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
-C:\Users\Lenovo\Desktop\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb

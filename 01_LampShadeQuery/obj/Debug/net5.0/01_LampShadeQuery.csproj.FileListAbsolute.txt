@@ -6,6 +6,9 @@ C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\0_FrameWork
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BolgManagement.Infrastructure.EFCore.dll
+C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
+C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
@@ -17,11 +20,14 @@ C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagem
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\0_FrameWork.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BolgManagement.Infrastructure.EFCore.pdb
+C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
+C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
+C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
@@ -37,9 +43,3 @@ C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShad
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\obj\Debug\net5.0\ref\01_LampShadeQuery.dll
 C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.pdb
-C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contract.dll
-C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
-C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
-C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
-C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contract.pdb
-C:\Users\Lenovo\Desktop\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

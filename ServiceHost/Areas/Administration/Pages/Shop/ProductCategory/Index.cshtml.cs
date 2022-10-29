@@ -1,11 +1,13 @@
 #nullable enable
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contract.ProductCategory;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategory
 {
+    [Authorize(Roles = "1,10001")]
     public class IndexModel : PageModel
     {
         public ProductCategorySearchModel SearchModel;
@@ -18,9 +20,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategory
             _productCategoryApplication = productCategoryApplication;
         }
 
-        public void OnGet(ProductCategorySearchModel ?searchModel)
+        public void OnGet(ProductCategorySearchModel? searchModel)
         {
-            
+
             ProductCategories = _productCategoryApplication.Search(searchModel);
         }
 
@@ -44,7 +46,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategory
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
-            var result=_productCategoryApplication.Edit(command);
+            var result = _productCategoryApplication.Edit(command);
             return new JsonResult(result);
         }
     }
